@@ -1,0 +1,52 @@
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(13, 147, 209);
+    margin-top: 20px;
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(13, 147, 209);
+}
+
+
+.semaforo-rojo{
+    -webkit-box-shadow: 10px 10px 282px 88px rgba(250,0,33,1);
+    -moz-box-shadow: 10px 10px 282px 88px rgba(250,0,33,1);
+    box-shadow: 10px 10px 282px 88px rgba(250,0,33,1);
+    background-color: red;
+    border-radius: 80px;
+}
+
+.semaforo-amarillo{
+    -webkit-box-shadow: 10px 10px 282px 88px rgba(255,228,56,1);
+    -moz-box-shadow: 10px 10px 282px 88px rgba(255,228,56,1);
+    box-shadow: 10px 10px 282px 88px rgba(255,228,56,1);
+    background-color: yellow;
+    border-radius: 80px;
+}
+
+.semaforo-verde{
+    -webkit-box-shadow: 10px 10px 282px 88px rgba(67,230,67,1);
+    -moz-box-shadow: 10px 10px 282px 88px rgba(67,230,67,1);
+    box-shadow: 10px 10px 282px 88px rgba(67,230,67,1);
+    background-color: green;
+    border-radius: 80px;
+}
+
+#dropdownMenuButton1{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#app{
+    margin-bottom: 15%;
+}
+
